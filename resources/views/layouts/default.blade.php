@@ -11,6 +11,11 @@
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+    <link rel="stylesheet" href="node_modules/mdbootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/mdbootstrap/css/mdb.min.css">
+    <link rel="stylesheet" href="node_modules/mdbootstrap/css/style.css">
     <!-- Styles -->
 
     <link href="{{ asset('css/app.css') }}" rel="stylesheet" type="text/css">
@@ -54,6 +59,8 @@
 
 @yield('content')
 <!-- Footer -->
+
+<!-- Footer -->
 <footer class="page-footer font-small blue">
 
     <!-- Copyright -->
@@ -63,6 +70,6 @@
     <!-- Copyright -->
 
 </footer>
-<!-- Footer -->
 </body>
+
 </html>

@@ -18,6 +18,9 @@ class MainController extends Controller
     {
     $articles=$this->main->getArticles('/articles');
         //return view('welcome',compact('articles'));
-        return view('Main/main');
+        return view('Main/main',compact('articles'));
+    }
+    public function createArticle(){
+
     }
 }
